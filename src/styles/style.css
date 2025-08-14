@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --fonte-padrao: 'Roboto Condensed', coursive;
+    --fonte-destaque: 'Bebas Neue', coursive;
+}
+
 * {
-    font-family: 'Bebas Neue', coursive;
+    font-family: var(--fonte-padrao);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,14 +19,21 @@ body {
 }
 
 .btn_default {
+    color: white;
+    font-weight: bold;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
-    border-radius: 5px;
-    padding: 10 14px;
+    background-color: #c40101;
+    border-radius: 12px;
+    padding: 10px 14px;
     font-weight: 600px;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_default:hover {
+    background-color: #e40000;
 }
