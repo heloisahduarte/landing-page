@@ -66,3 +66,11 @@ section{
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
 
+.section_title {
+    color: #c40101;
+}
+
+.section_subtitle {
+    color: #1d1d1d;
+    font-weight: 600px;
+}

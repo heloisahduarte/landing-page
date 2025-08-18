@@ -44,6 +44,12 @@
     border-radius: 12px;
 }
 
+#phone_button button {
+    box-shadow: none;
+} 
+
+
+
 #banner {
     display: flex;
     align-items: center;
@@ -66,4 +72,31 @@
     top: 0;
     right: 0;
     z-index: 1;
+}
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img,
+    .shape {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #cta_buttons {
+        display: flex;
+        flex-direction: column;
+    }
 }
