@@ -23,14 +23,14 @@
     gap: 18px;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--sombra);
     position: relative;
     overflow: hidden;
 }
 
 .dish_heart {
     position: absolute;
-    background-color: #c40101;
+    background-color:var(--color-botao);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,12 +45,12 @@
 
 .dish_description {
     font-size: 1.2rem;
-    color: #1d1d1d;
+    color: var(--color-fonte);
     text-align: center;
 }
 
 .dish_rate {
-    color: #c40101;
+    color:var(--color-botao);
 }
 
 .dish_price {

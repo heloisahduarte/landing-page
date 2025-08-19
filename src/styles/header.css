@@ -26,7 +26,7 @@ header {
 
 #nav_logo {
     font-size: 24px;
-    color:rgb(188, 0, 0);
+    color:#bc0000;
 }
 
 
@@ -40,13 +40,13 @@ header {
 .nav_item a {
     font-family: var(--fonte-destaque);
     text-decoration: none;
-    color: #1d1d1dad;
+    color: var(--color-fonte)ad;
     font-weight: 600px;
 }
 
 .nav_item.active a {
-    color: #1d1d1d;
-    border-bottom: 3px solid rgb(228, 3, 3);
+    color: var(--color-fonte);
+    border-bottom: 3px solid #e40303;
 }
 
 #mobile_btn {
