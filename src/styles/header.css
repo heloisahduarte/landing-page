@@ -40,7 +40,7 @@ header {
 .nav_item a {
     font-family: var(--fonte-destaque);
     text-decoration: none;
-    color: var(--color-fonte)ad;
+    color: #1d1d1dad;
     font-weight: 600px;
 }
 
