@@ -26,12 +26,17 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff9ea;
 }
 
 section{
     padding: 28px 8%;
+    scroll-margin-top: 96px;
 }
 
 .btn_default {
