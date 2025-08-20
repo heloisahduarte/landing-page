@@ -3,19 +3,7 @@ $(document).ready(function() {
         $('#mobile_menu').toggleClass('active');
         $('#mobile_btn').find('i').toggleClass('fa-x');
     });
-
-        $('.nav_item a').on('click', function(e) {
-        e.preventDefault();
-        const targetId = $(this).attr('href');
-        const headerHeight = $('header').outerHeight();
-        const targetOffset = $(targetId).offset().top - headerHeight;
     
-        $('html, body').animate({ scrollTop: targetOffset }, 500, function() {
-            // Atualiza o destaque do menu após o scroll
-            $('.nav_item').removeClass('active');
-            $(e.target).parent().addClass('active');
-        });
-    });
 
     const sections = $('section');
     const navItens = $('.nav_item');

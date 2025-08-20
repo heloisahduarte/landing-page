@@ -49,6 +49,12 @@
     justify-content: space-between;
 }
 
+.feedback_content p.client {
+    font-weight: 600;
+    color: var(--color-fonte);
+    font-size: 1.2rem;
+}
+
 .feedback_content p span {
     color:var(--color-botao);
 }
