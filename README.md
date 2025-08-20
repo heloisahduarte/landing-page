@@ -6,7 +6,7 @@ O projeto apresenta um cardápio interativo, avaliações de clientes e animaç�
 ## 💻 Demonstração
 
 Acesse o site pelo GitHub Pages:  
-[https://github.com/heloisahduarte/landing-page](https://github.com/heloisahduarte/landing-page)
+[Site Online](https://heloisahduarte.github.io/landing-page/)
 
 ## ✨ Funcionalidades
 
